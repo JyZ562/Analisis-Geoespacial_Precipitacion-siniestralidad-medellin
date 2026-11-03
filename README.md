@@ -24,4 +24,4 @@ Cada siniestro toma el valor de pendiente de la celda donde ocurrió, junto con 
 - [`presentacion/`](presentacion/) — presentación de la propuesta (PowerPoint).
 - [`datos/estaciones_pluviometricas/`](datos/estaciones_pluviometricas/) — series diarias de precipitación de 81 estaciones SIATA (ZIP con CSV) e inventario de estaciones SIATA, IDEAM y EPM (Word).
 - [`datos/siniestros/`](datos/siniestros/) — bases de siniestralidad vial y de mortalidad 2022–2024 de la Secretaría de Movilidad de Medellín (CSV y Excel).
-  - [`datos/siniestros/depurados/`](datos/siniestros/depurados/) — las mismas bases sin los registros que no tienen coordenadas (siniestralidad: 79.467 de 85.793; mortalidad: 795 de 836).
+  - [`datos/siniestros/depurados/`](datos/siniestros/depurados/) — las mismas bases sin los registros que no tienen coordenadas (siniestralidad: 79.467 de 85.793; mortalidad: 795 de 836). Se generan con el script [`depuracion_coordenadas.py`](datos/siniestros/depurados/depuracion_coordenadas.py).
